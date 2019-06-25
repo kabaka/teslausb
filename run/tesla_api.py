@@ -314,6 +314,22 @@ def set_charge_limit(percent):
     )
 
 
+def set_sentry_mode(new_state):
+    return _execute_request(
+        '{}/{}/command/set_sentry_mode'.format(base_url, tesla_api_json['vehicle_id']),
+        method='POST',
+        data={'on': new_state}
+    )
+
+
+def enable_sentry_mode():
+    return set_sentry_mode('true')
+
+
+def disable_sentry_mode():
+    return set_sentry_mode('false')
+
+
 ######################################
 # MAIN
 ######################################
