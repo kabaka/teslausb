@@ -11,7 +11,15 @@ This fork contains the following changes compared to the upstream [cimryan/tesla
 1. Easier and more flexible way to specify sizes of camera and music disks
 1. Support for Gotify and IFTTT in addition to Pushover for notifications
 
-It is recommended to use the [prebuilt image](https://github.com/marcone/teslausb/releases) and [one step setup instructions](https://github.com/marcone/teslausb/blob/main-dev/doc/OneStepSetup.md) to get started, as the instructions below may be outdated.
+## :warning: This Document is Outdated :warning:
+
+The instructions in this document are **incomplete** and will not result in a
+functional system. This will be fixed soon, but this repository is a recent
+fork and thus has brought with it some technical/documentation debt. Unless you
+are familiar with Linux system administration, including manipulating boot-time
+configuration and kernel modules, or you are prepared to spend a great deal of
+time learning, please use [the parent
+repository](https://github.com/marcone/teslausb)'s code and instructions.
 
 
 ## Intro
